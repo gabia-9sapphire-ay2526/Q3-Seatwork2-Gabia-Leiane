@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Seatwork 2</title>
+
+<!-- BOOTSTRAP-CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PC Paradise</a>
+        </div>
+
+         <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Comments</button>
+        </form>
+    </header>
+
+
+    <main class="text-center">
+        <div class="container bg-primary rounded mt-5 p-3"
+            <br><h2>Want a gaming laptop? 💻</h2>
+            <p>Enter your budget to find the right on!</p>
+            <input type="number" id="loc" placeholder= "Enter your budget" class="form-control w-50 mx-auto mb-3" >
+        </div>
+
+        <br><button type="button" class="btn btn-primary mx-6" onclick="lookDiscount()">Brands & Discounts</button>
+        <div id="discount"></div>
+        <br><button type="button" class="btn btn-primary mx-5" onclick="lookLocation()">Store Location</button>
+        <div id="location"></div>
+
+
+        <div class="box mt-5">
+            <h5>Recommended brands:</h5>
+                <button type="button" class="btn btn-outline-primary">Acer</button>
+                <button type="button" class="btn btn-outline-primary">Apple</button>
+                <button type="button" class="btn btn-outline-primary">Lenovo</button><br>
+
+            <br><h5>Eligible Discount:   <span class="badge bg-danger"> 14000.00</span></h5>
+
+        </div>
+
+        <div class="box2">
+            <img src="https://villman.com/images/villman_logo_2020.png" alt="villmanlogo" width="230px"><br>
+            <p>Quezon City:
+                    SM North EDSA: 5/F Cyberzone, The Annex
+                    SM Fairview: 3rd Floor, Cyberzone
+                    Mandaluyong City:
+                    SM Megamall: 4th Floor, Bldg. B, Cyberzone
+                San Juan City:
+                    VMall Greenhills: 3rd Floor, Food Court Area
+                    GH Mall: L4 GH Phase 1, Greenhills Shopping Center
+                Marikina City:
+                    SM City Marikina: 
+                    VillMan Computers
+</p>
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-white fixed-bottom text-center">
+        <p>© 2026 PC Paradise. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
